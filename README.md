@@ -7,7 +7,7 @@ The scraper module (scraper_module.py) interacts with the Bundesanzeiger website
 
 1. Install the required libraries by running 'pip install -r requirements.txt'
 
-2. Place the glassdollar-companies.xlsx file containing the list of companies and domains in the data directory.
+2. Place the companies.xlsx file containing the list of companies and domains in the data directory.
 
 3. Open the scraper.py file and adjust the path_to_list, domain_column, and company_column variables as per your dataset and execute it. 
 
@@ -22,7 +22,7 @@ The file processed_reports.json contains the results of scraping the Bundesanzei
 
 Description of the fields:
 
-- search_company_name: the search term with which the the report was found on bundesanzeiger.de (these company names are taken from the Glassdollar-companies.xslx list)
+- search_company_name: the search term with which the the report was found on bundesanzeiger.de (these company names are taken from the companies.xslx list)
 - date: date when report was published at Bundesanzeiger
 - report_title: report title
 - comapny: company name incl. legal form
