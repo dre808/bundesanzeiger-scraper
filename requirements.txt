@@ -5,4 +5,3 @@ pandas==1.3.5
 pillow==8.4.0
 python-dateutil==2.8.2
 requests==2.26.0
-dataparser==23.2.1
